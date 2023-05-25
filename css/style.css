@@ -1,0 +1,933 @@
+body{
+	background-image: url("../imagens/capa.png"), url("../imagens/ruido.png"), linear-gradient(50deg, rgba(255, 65, 105), rgba(124, 38, 248));
+	margin: 0;
+}
+
+/* ------ */
+/* NAVBAR */
+/* ------ */
+
+.navBar{
+	background: rgba(0,0,0,0.6);
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+    z-index: +1;
+	top: 0;
+	width: 100%;
+}
+
+.divPremium, .divAjuda, .divBaixar, .divBarra, .divIncrever, .divEntrar{
+	float: left;
+	display: grid;
+	position: relative;
+	grid-auto-columns: auto;
+	text-decoration: none;
+	color: white;
+	padding: 25px 15px;
+}
+
+.btnSubMenu, .imgSubMenu{
+    width: 1px;
+    visibility: hidden;
+}
+
+#divContent{
+	float: right;
+	margin-right: 200px;
+}
+
+.divPremium:hover, .divAjuda:hover, .divBaixar:hover, .divBarra:hover, .divIncrever:hover, .divEntrar:hover{
+	color: #9bf0e1;
+	cursor: pointer;
+}
+
+/* ---------- */
+/*NavBar Image*/
+/* ---------- */
+
+.imgIcon{
+	display: grid;
+	position: relative;
+	grid-auto-columns: auto;
+	text-decoration: none;
+	float: left;
+	width: 8%;
+    top: 10px;
+
+    padding: 5px;
+
+	left: 200px;
+}
+
+/* -------- */
+/* Carousel */
+/* -------- */
+
+.item {
+    position: relative;
+    text-align: center;
+
+	padding: 10%;
+}
+
+.subtexto {
+    font-size: 20px;
+    border: 2px solid rgb(237, 245, 241);
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+#subtextobranco:hover {
+    background-color: white;
+    color: black;
+}
+
+.textocarrossel {
+	font-weight: bolder;
+    color: white;
+    font-size: 80px;
+}
+
+.container{
+    position: relative; 
+	padding: 15%;
+}
+
+.capa{   
+    object-fit: cover;
+}
+
+.carousel-indicators {
+   display: none;
+ }
+
+.left.carousel-control {
+    background: transparent !important;
+    border: none;
+    
+  }
+
+.right.carousel-control {
+    background: transparent !important;
+    border: none;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#subtextoazul {
+    background-color: #6207e3;
+    border: none;
+    position: relative;
+    left: -4px;
+}
+
+#leftSideWidth{
+    width: 10%;
+}
+
+#rightSideWidth{
+    width: 10%;
+}
+
+/* -------------------- */
+/* O que o Spotify tem? */
+/* -------------------- */
+
+.spotifyInfo{
+	display: grid;
+	background-color: white;
+}
+
+#imgInfoDiv{
+	width: 50%;
+	margin-left: 16%;
+}
+
+.imgInfo{
+  	grid-template-columns: auto auto;
+	padding: 3%;
+	width: 40%;
+}
+
+.txtInfo{
+	position: absolute;
+	left: 56%;
+	width: 35%;
+
+	padding-left: 0.5%;
+}
+
+.txtTitle{
+	font-weight: bold;
+	color: #7c25f8;
+}
+
+.txtSubTitleInfo{
+    margin-top: 10%;
+	font-weight: bold;
+	color: #7c25f8;
+}
+
+.txtExplain{
+	color: black;
+}
+
+/* ----- */
+/* Fácil */
+/* ----- */
+
+.whatSpotifyHave{
+    display: grid;
+    grid-template-columns: auto;
+}
+.txtInfosSpotifyHave{
+    padding-left: 16%;
+    position: absolute;
+    width: 45%;
+}
+
+.imgIphoneDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+	width: 35%;
+	margin-left: 50%;
+    top: 10px;
+	transform: rotate(30deg);
+}
+
+.imgIphone{
+    width: 100%;
+}
+
+.txtBenefit{
+	color: white;
+	font-weight: bolder;
+}
+
+.txtSubTitle{
+	color: #9bf0e1;
+	font-weight: bold;
+}
+
+.txtDescription{
+	color: white;
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
+
+.row {
+    position: sticky;
+    background-color: black;
+	margin: 0 !important;
+    width: 100%;
+    padding: 2%;
+    z-index: 1;
+    bottom: 0;
+}
+
+#logo {
+    width: 35%;
+    position: relative;
+    left: 27%;
+}
+
+.text-white {
+    text-decoration: none !important;
+    color: white;
+}
+
+#company{
+    align-items: start;
+}
+
+.text-white:hover{
+    color: #9bf0e1;
+}
+ 
+.text-uppercase {
+    display: flex;
+    flex-direction: column;
+    color:rgba(255,255,255,.5);
+}  
+
+.list-unstyled.mb-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    left: 10px;
+    padding-bottom: 15px;
+
+}
+
+#LinksUteis {
+    position: relative;
+    left: 110px;
+    width: 40%;
+}
+
+#Comunidade {
+    position: relative;
+    left: 50px;
+}
+
+.imgFooterSocialMedia{
+    display: flex;
+    position: relative;
+    float: right;
+
+    right: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#íconestt {
+    margin-right: 10px;
+    width: 40%;
+}
+
+#íconesinsta {
+    margin-right: 10px;
+    width: 40%;
+}
+
+#íconesface {
+    width: 40%;
+}
+
+/* Media (1280 - 800) */
+
+@media only screen and (max-width: 1280px) {
+    /* ------ */
+    /* NAVBAR */
+    /* ------ */
+
+    .divPremium, .divAjuda, .divBaixar, .divBarra, .divIncrever, .divEntrar{
+        padding: 15px 15px;
+    }
+
+    #divContent{
+        float: right;
+        margin-right: 300px;
+    }
+
+    /* ---------- */
+    /*NavBar Image*/
+    /* ---------- */
+
+    .imgIcon{
+        width: 10%;
+        top: 5px;
+
+        padding: 5px;
+
+        left: 150px;
+    }
+
+    /* -------- */
+    /* Carousel */
+    /* -------- */
+
+    #myCarousel{
+        width: 100%;
+    }
+
+    .item {
+        padding: 5%;
+    }
+
+    .subtexto {
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 100px;
+    }
+
+    .textocarrossel {
+        font-size: 60px;
+    }
+
+    .container{
+        padding: 10%;
+    }
+
+    #subtextoazul {
+        left: -4px;
+    }
+
+    #leftSideWidth{
+        width: 10%;
+    }
+
+    #rightSideWidth{
+        width: 10%;
+    }
+
+    /* -------------------- */
+    /* O que o Spotify tem? */
+    /* -------------------- */
+
+    #imgInfoDiv{
+        width: 50%;
+        margin-left: 16%;
+    }
+
+    .txtInfo{
+        left: 55%;
+        width: 30%;        
+    }
+
+    .txtTitle{
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtSubTitleInfo{
+        margin-top: 5%;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtExplain{
+        color: black;
+    }
+
+    /* ----- */
+    /* Fácil */
+    /* ----- */
+    
+    .imgIphoneDiv{
+        margin-left: 51%;
+    }
+
+    /* ------ */
+    /* Footer */
+    /* ------ */
+
+    #logo {
+        width: 45%;
+        position: relative;
+        left: 24%;
+    }
+
+    #LinksUteis {
+        padding: 0;
+    }
+
+    .imgFooterSocialMedia{
+        right: 10%;
+    }
+}
+
+/* Media (1024) */
+
+@media only screen and (max-width: 1024px){
+    
+    /* ------ */
+    /* NAVBAR */
+    /* ------ */
+
+    #divContent{
+        float: right;
+        margin-right: 100px;
+    }
+
+    /* ---------- */
+    /*NavBar Image*/
+    /* ---------- */
+
+    .imgIcon{
+        width: 10%;
+        top: 5px;
+    }
+
+    /* -------- */
+    /* Carousel */
+    /* -------- */
+
+    .item {
+        padding: 5%;
+    }
+
+    #myCarousel{
+        width: 100%;
+    }
+
+    .subtexto {
+        font-size: 18px;
+    }
+
+    .textocarrossel {
+        margin-bottom: 5px;
+        font-size: 70px;
+    }
+
+    .container{
+        padding: 20%;
+    }
+
+    /* -------------------- */
+    /* O que o Spotify tem? */
+    /* -------------------- */
+
+    .txtInfo{
+        position: absolute;
+        left: 56%;
+        width: 35%;
+
+        padding-left: 0.5%;
+    }
+
+    .txtTitle{
+        font-size: 35px;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtSubTitleInfo{
+        font-size: 23px;
+        margin-top: 4%;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtExplain{
+        font-size: 14px;
+        color: black;
+    }
+
+    /* ----- */
+    /* Fácil */
+    /* ----- */
+
+    .txtInfosSpotifyHave{
+        position: absolute;
+        top: 1040px;
+    }
+
+    .imgIphoneDiv{
+        margin-left: 52%;
+    }
+
+    .txtBenefit{
+        font-size: 35px;
+    }
+
+    .txtSubTitle{
+        font-size: 23px;
+    }
+
+    .txtDescription{
+        font-size: 14px;
+    }
+
+    /* ------ */
+    /* Footer */
+    /* ------ */
+
+    #imgLogo{
+        width: 20%;
+    }
+
+    #logo {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    
+    
+    .list-unstyled.mb-0 {
+        padding-bottom: 15px;
+    }
+    #company{
+        padding: 0%;
+        width: 15%;
+    }
+
+    #LinksUteis {
+        padding: 0%;
+        position: relative;
+        width: 15%;
+    }
+
+    #Comunidade {
+        padding: 0%;
+        width: 15%;
+    }
+
+    .imgFooterSocialMedia{
+        right: 0%;
+    }
+
+    #íconestt {
+        margin-right: 10px;
+        width: 30%;
+    }
+
+    #íconesinsta {
+        margin-right: 10px;
+        width: 30%;
+    }
+
+    #íconesface {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 912px){
+
+    /* -------- */
+    /* Carousel */
+    /* -------- */
+
+    .subtexto {
+        font-size: 16px;
+    }
+
+    .textocarrossel {
+        font-size: 60px;
+    }
+
+    /* -------------------- */
+    /* O que o Spotify tem? */
+    /* -------------------- */
+
+    .txtInfo{
+        position: absolute;
+        left: 56%;
+        width: 35%;
+
+        padding-left: 0.5%;
+    }
+
+    .txtTitle{
+        font-size: 30px;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtSubTitleInfo{
+        font-size: 20px;
+        margin-top: 4%;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtExplain{
+        font-size: 12px;
+        color: black;
+    }
+
+    /* ----- */
+    /* Fácil */
+    /* ----- */
+
+    .txtInfosSpotifyHave{
+        position: absolute;
+        top: 920px;
+    }
+
+    .imgIphoneDiv{
+        margin-left: 52%;
+    }
+    
+    .txtBenefit{
+        font-size: 30px;
+    }
+
+    .txtSubTitle{
+        font-size: 20px;
+    }
+
+    .txtDescription{
+        font-size: 12px;
+    }
+
+    /* ------ */
+    /* Footer */
+    /* ------ */
+
+    .row{
+        height: 30% !important;
+    }
+
+    #imgLogo{
+        width: 20%;
+    }
+
+    #logo {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    
+    
+    .list-unstyled.mb-0 {
+        padding-bottom: 15px;
+    }
+
+    #company{
+        padding: 0%;
+        position: relative;
+        left: 25%;
+        width: 15%;
+        bottom: 40px;
+    }
+
+    #LinksUteis {
+        padding: 0%;
+        position: relative;
+        left: 55%;
+        width: 15%;
+        bottom: 300px;
+    }
+
+    #Comunidade {
+        padding: 0%;
+        position: relative;
+        left: 38%;
+        width: 15%;
+        bottom: 180px;
+    }
+
+    .imgFooterSocialMedia{
+        right: 5%;
+    }
+
+    #íconestt {
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    #íconesinsta {
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    #íconesface {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+
+    /* ------ */
+    /* NAVBAR */
+    /* ------ */
+
+    .navBar{
+        overflow: hidden;
+    }
+
+    .btnSubMenu{
+        visibility: visible;
+        width: 20%;
+    }
+
+    .imgSubMenu{
+        visibility: visible;
+        width: 40%;
+    }
+
+    .navBar, .divPremium, .divAjuda, .divBaixar, .divBarra, .divIncrever, .divEntrar{
+        float: right;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .divSubContent{
+        float: left;
+        overflow: hidden;
+    }
+
+    .divSubContent, .btnSubMenu{
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .divSubContent{
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: red;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .divSubContent, .divPremium, .divAjuda, .divBaixar, .divBarra, .divIncrever, .divEntrar{
+        float: left;
+        color: white;
+        text-decoration: none;
+    }
+    
+
+    /* ---------- */
+    /*NavBar Image*/
+    /* ---------- */
+
+    .imgIcon{
+        display: grid;
+        position: relative;
+        grid-auto-columns: auto;
+        text-decoration: none;
+        float: left;
+        width: 8%;
+        top: 10px;
+
+        padding: 5px;
+
+        left: 200px;
+    }
+
+    /* -------- */
+    /* Carousel */
+    /* -------- */
+
+    .subtexto {
+        font-size: 10px;
+        padding: 5px;
+        border: 1px solid rgb(237, 245, 241);
+    }
+
+    .textocarrossel {
+        font-size: 25px;
+    }
+
+    /* -------------------- */
+    /* O que o Spotify tem? */
+    /* -------------------- */
+
+    .txtInfo{
+        position: absolute;
+        left: 56%;
+        width: 35%;
+
+        padding-left: 0.5%;
+    }
+
+    .txtTitle{
+        font-size: 30px;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtSubTitleInfo{
+        font-size: 20px;
+        margin-top: 4%;
+        font-weight: bold;
+        color: #7c25f8;
+    }
+
+    .txtExplain{
+        font-size: 12px;
+        color: black;
+    }
+
+    /* ----- */
+    /* Fácil */
+    /* ----- */
+
+    .txtInfosSpotifyHave{
+        position: absolute;
+        top: 920px;
+    }
+
+    .imgIphoneDiv{
+        margin-left: 52%;
+    }
+    
+    .txtBenefit{
+        font-size: 30px;
+    }
+
+    .txtSubTitle{
+        font-size: 20px;
+    }
+
+    .txtDescription{
+        font-size: 12px;
+    }
+
+    /* ------ */
+    /* Footer */
+    /* ------ */
+
+    .row{
+        height: 30% !important;
+    }
+
+    #imgLogo{
+        width: 20%;
+    }
+
+    #logo {
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+    
+    
+    .list-unstyled.mb-0 {
+        padding-bottom: 15px;
+    }
+
+    #company{
+        padding: 0%;
+        position: relative;
+        left: 25%;
+        width: 15%;
+        bottom: 40px;
+    }
+
+    #LinksUteis {
+        padding: 0%;
+        position: relative;
+        left: 55%;
+        width: 15%;
+        bottom: 300px;
+    }
+
+    #Comunidade {
+        padding: 0%;
+        position: relative;
+        left: 38%;
+        width: 15%;
+        bottom: 180px;
+    }
+
+    .imgFooterSocialMedia{
+        right: 5%;
+    }
+
+    #íconestt {
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    #íconesinsta {
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    #íconesface {
+        width: 25%;
+    }
+}

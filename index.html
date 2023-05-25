@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Música para todos</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="navBar">
+			<button class="btnSubMenu"><img class="imgSubMenu" src="imagens/menuTresLinhas.png"></button>
+			<img class="imgIcon" src="imagens/spotify.svg" >
+			<div id="divContent" class="divSubContent">
+				<div class="divPremium">Premium</div>
+				<div class="divAjuda">Ajuda</div>
+				<div class="divBaixar">Baixar</div>
+				<div class="divBarra">|</div>
+				<div class="divIncrever">Increver-se</div>
+				<div class="divEntrar">Entrar</div>
+			</div>
+		</div>
+
+		<!-- Carrossel -->
+
+		<div class="container">
+   
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			  </ol>
+		  
+			  <!-- Itens do carrossel -->
+			  <div class="carousel-inner">
+				<div class="item active">
+				  <p class="textocarrossel"> As melhores rádios</p>
+				  <span class="subtexto" id="subtextobranco"> ♫ Ouça agora </span>
+				</div>
+		  
+				<div class="item">
+				  <p class="textocarrossel"> Música para todos</p>
+				  <span class="subtexto" id="subtextoazul"> Aproveite o Spotify Free </span>
+				  <span class="subtexto" id="subtextobranco">Obter Spotify Premium </span>
+				</div>
+			  
+			  </div>
+		  
+			  <!-- Left and right controls -->
+			  <a id="leftSideWidth" class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" id="setaleft"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a id="rightSideWidth" class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" id="setaright"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+
+		<!-- Fim do Carrossel -->
+
+		<div class="spotifyInfo">
+
+			<div id="imgInfoDiv">
+				<img class="imgInfo" id="img1Position" src="imagens/img1.jpg">
+				<img class="imgInfo" id="img2Position" src="imagens/img2.jpg">
+				<img class="imgInfo" id="img3Position" src="imagens/img3.jpg">
+				<img class="imgInfo" id="img4Position" src="imagens/img4.jpg">
+			
+			</div>
+			<div class="txtInfo">
+				<h1 class="txtTitle">O que o Spotify tem?</h1>
+				<h3 class="txtSubTitleInfo">Músicas</h3>
+				<p class="txtExplain">O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+				
+				<h3 class="txtSubTitleInfo">Playlist</h3>
+				<p class="txtExplain">No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música</p>
+				
+				<h3 class="txtSubTitleInfo">Novos Lançamentos</h3>
+				<p class="txtExplain">Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+			</div>
+
+
+		</div><br>
+
+		<div class="whatSpotifyHave">
+			<div class="txtInfosSpotifyHave">
+				<h1 class="txtBenefit">Fácil</h1>
+				<h3 class="txtSubTitle">Buscar</h3>
+				<p class="txtDescription">Já sabe o que quer escutar ? É só procurar e apertar o play.</p>
+				
+				<h3 class="txtSubTitle">Navegar</h3>
+				<p class="txtDescription">Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+				
+				<h3 class="txtSubTitle">Descobrir</h3>
+				<p class="txtDescription">Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.</p>
+			</div>
+			<div class="imgIphoneDiv">
+				<img class="imgIphone" src="imagens/iphone1.png">
+				<img class="imgIphone" src="imagens/iphone2.png">
+			</div>
+		</div>
+
+	
+		<footer class="bg-dark text-center text-white" >
+
+			<div class="row">
+				
+				<div class="imgFooterSocialMedia">
+					<img id="íconesinsta" src="imagens/instagram.png" alt=""> 
+					<img id="íconestt" src="imagens/twitter.png" alt="">
+					<img id="íconesface" src="imagens/facebook.png" alt=""> 
+				</div>
+
+				<div class="col-lg-3 col-md-6 mb-5 mb-md-0" id="imgLogo">
+					<img id="logo" src="imagens/spotify.svg" alt="">
+				</div>
+				
+				<div class="col-lg-1 col-md-6 mb-4 mb-md-0" id="company">		
+				  <ul class="list-unstyled mb-0">
+					<h5 class="text-uppercase">COMPANY</h5>
+					<li>
+					  <a href="#!" class="text-white">Sobre</a>
+					</li>
+					<li>
+					  <a href="#!" class="text-white">Empregos</a>
+					</li>
+					<li>
+					  <a href="#!" class="text-white">Imprensa</a>
+					</li>
+					<li>
+					  <a href="#!" class="text-white">Novidades</a>
+					</li>
+				  </ul>
+				</div>
+
+				<div id="Comunidade" class="col-lg-1 col-md-6 mb-4 mb-md-0" >
+					<ul class="list-unstyled mb-0">
+					  	<li><h5 class="text-uppercase">COMUNIDADE</h5></li>
+						<li><a href="#!" class="text-white">Artistas</a></li>
+						<li><a href="#!" class="text-white">Desenvolvedores</a></li>
+						<li><a href="#!" class="text-white">Marcas</a></li>
+				  	</ul>
+				</div>
+
+				<div id="LinksUteis" class="col-lg-1 col-md-6 mb-4 mb-md-0">
+					<ul class="list-unstyled mb-0">
+					  	<li><h5 class="text-uppercase">LINKS UTEIS</h5></li>
+						<li><a href="#!" class="text-white">Ajuda</a></li>
+						<li><a href="#!" class="text-white">Presentes</a></li>
+						<li><a href="#!" class="text-white">Player da web</a></li>
+				 	</ul>
+				</div>
+			  </div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>
